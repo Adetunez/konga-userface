@@ -1,0 +1,189 @@
+body{
+    background-color: #f2f2f2;
+    text-align: center;
+    margin: 0;
+}
+.head2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.head2 h1{
+    color: #ed017f;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.head2 img{
+    position: relative;
+    left: 7px;
+    bottom: 3px;
+}
+.head3{
+    border: 1px solid none;
+    height: 540px;
+    width: 400px;
+    margin: auto;
+    margin-top: 25px;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: -0.1px -0.1px 3px 2px #f2f2f283;
+}
+.head4 h2{
+    padding-top: 17px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 13px;
+}
+.head4 .section-divider{
+    border-bottom: 1px solid #e8e8e8;
+    width: 400px;
+}
+.head4 .head5{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.head5 .col1{
+    border: 1px solid #41709a;
+    width: 130px;
+    padding: 15px 15px 9px 15px;
+    border-radius: 3px;
+}
+.head5  .col2{
+    border: 1px solid #4285fa;
+    padding: 15px 15px 9px 15px;
+    margin-left: 10px;
+    border-radius: 3px;
+    width: 130px;
+}
+.head5 a{
+    text-decoration: none;
+    font-size: 13px;
+}
+.head5 span{
+    font-size: 17px;
+    color: #41709a;
+    font-weight: bold;
+}
+.col3:before{
+    content: "";
+    background-color: #e8e8e8;
+    width: 38%;
+    height: 1px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    left: 4px;
+    margin-left: -50%;
+}
+.col3:after{
+    content: "";
+    background-color: #e8e8e8;
+    width: 38%;
+    height: 1px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    right: 4px;
+    margin-right: -50%;
+}
+.head6{
+    padding-top: 18px;
+}
+.head6 span{
+    border: 1px solid #e8e8e8;
+    padding: 7px 5px;
+    border-radius: 50%;
+    color: #9b9b9b;
+    display: inline-block;
+    font-size: 13px;
+}
+.head7{
+    padding-top: 20px;
+}
+.head7 label{
+    margin-right: 122px;
+}
+.head7 input[type=email]{
+    margin-top: 12px;
+    padding: 11px;
+    width: 310px;
+    border-radius: 3px;
+    border: 1px solid black;
+    font-size: 13px;
+    opacity: 0.5;
+    outline: none;
+}
+.head8{
+    margin-top: 20px;
+    font-size: 14px;
+}
+.head8 a{
+    margin-left: 175px;
+    color: #94004f;
+}
+.head8 input[type=password]{
+    margin-top: 12px;
+    padding: 11px;
+    width: 258px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-right: none;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    font-size: 13px;
+    opacity: 0.5;
+    display: flex;
+    margin-left: 32px;
+    outline: none;
+}
+.head8 .col4{
+    margin-left: 105px;
+}
+.head8 .col5{
+    border: 1px solid black;
+    font-size: 12.5px;
+    opacity: 0.5;
+    padding: 12px 12px 11.5px 12px;
+    width: 20px;
+    position: relative;
+    bottom: 28px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-left: 0;
+    text-decoration: none;
+    font-size: 13px;
+    color: black;
+}
+.head9 button[type=submit]{
+    padding: 11px;
+    border-radius: 3px;
+    border-style: none;
+    width: 335px;
+    background-color: #33b27b;
+    color: white;
+}
+.head10{
+    background-color: #f2f2f2ce;
+    margin-top: 30px;
+}
+.head10 .col6{
+    padding: 8px 0 17px 0;
+}
+.col6 p{
+    opacity: 0.5;
+}
+.col6 button[type=button]{
+    padding: 11px;
+    width: 335px;
+    border-radius: 3px;
+    border: 1px solid#f84ca2;
+    background-color: white;
+    color: #f84ca2;
+    font-weight: bold; 
+}
+.col6 button[type=button]:hover{
+    background-color: #ed017f;
+    color: white;
+}
